@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/albg"
+    tools:context=".shivaji">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="318dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white"
+        android:text="Shivaji Maharaj was born on Shivaneri Fort"
+        android:textAlignment="center"
+        android:textColor="#0F1215"
+        android:textColorHighlight="#185585"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/questionnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="311dp"
+        android:text="Q 1/10"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/press_true"
+        android:layout_width="277dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#686161"
+        android:onClick="press_true"
+        android:text="True"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/press_false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#2196F3" />
+
+    <Button
+        android:id="@+id/press_false"
+        android:layout_width="277dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="235dp"
+        android:backgroundTint="#686161"
+        android:onClick="press_false"
+        android:text="Flase"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#03A9F4" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="224dp"
+        android:layout_height="219dp"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/press_true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/midle" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="196dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="160dp"
+        android:text="Score : 0/10"
+        android:textAlignment="center"
+        android:textColor="#0A0D10"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="237dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="88dp"
+        android:progressBackgroundTint="#F40707"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

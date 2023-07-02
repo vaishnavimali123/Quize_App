@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">QuizBox</string>
+    <string name="press_true">True</string>
+    <string name="press_false">Flase</string>
+
+    <string name="Question_1">Shivaji Maharaj was born on Shivaneri Fort.</string>
+    <string name="Question_2">Shivaji Maharaj was born in 19 February 1640.</string>
+    <string name="Question_3">Rastramata Jijau was the mother of Shivaji Maharaj.</string>
+    <string name="Question_4">Mughal is the name of empire founded by Chhatrapati Shivaji.</string>
+    <string name="Question_5">Shivaji Maharaj was crowned as the king on June 6, 1675.</string>
+    <string name="Question_6">Shivaji\'s elder brother was Sambhaji Bhosale.</string>
+    <string name="Question_7">Samarth Ramdas was Shivaji\'s guru.</string>
+    <string name="Question_8">Shahaji Bhosale was brother of Shivaji Maharaj.</string>
+    <string name="Question_9">Torna was the first fort conquered by Chhatrapati Shivaji Maharaj.</string>
+    <string name="Question_10">In 1650 Torna was conquered by Shivaji Maharaj.</string>
+    <string name="Question_11">Karmaveer Bhau\'s Date of birth was 22 September 1887.</string>
+    <string name="Question_12">Paigonda Devgonda Patil was the father of Karmaveer Bhaurao Patil.</string>
+    <string name="Question_13">Gangabai was not Mother of Karmaveer Bhaurao Patil.</string>
+    <string name="Question_14">The Government of India awarded Bhau with Padma Bhushan in 1959 in India.</string>
+    <string name="Question_15">Karmaveer Bhaurao Patil was born in Sangli district.</string>
+    <string name="Question_16">His education took place at Sangli.</string>
+    <string name="Question_17">His old surname was Desai.</string>
+    <string name="Question_18">Karmaveer Bhau studied till only the 8th standard.</string>
+    <string name="Question_19"> On 4 Oct 1920,he finally started “Rayat Shikshan Sanstha” in Satara kale.</string>
+    <string name="Question_20">Brid statement of his Sanstha is स्वलांबही शिक्षण हेच आमचा ब्रीद.</string>
+    <string name="Question_21">Full name of Jyotiba phule was Mahatma Jyotirao Govindrao Phule.</string>
+    <string name="Question_22">Mahatma Jyotiba Phule was born on 11 April 1830.</string>
+    <string name="Question_23">Savitri at the age of 20 was married to Jyotirao.</string>
+    <string name="Question_24">On September 1874,he formed Satyashodhak Samaj.</string>
+    <string name="Question_25">Jyotiba Phule educated not his wife.</string>
+    <string name="Question_26">He was educated in a school established by the Chrisitan Missionaries.</string>
+    <string name="Question_27">Jyotirao\'s family belonged to mali caste and their original title was ‘Gorhay’.</string>
+    <string name="Question_28">Gulamgiri written was not by Mahatma Jyotiba Phule.</string>
+    <string name="Question_29">Phule started his first school for girls in 1848 in Pune.</string>
+    <string name="Question_30">Jyotirao Phule enrolled in the Scottish Mission High School in Poona in 1841 .</string>
+
+
+
+
+
+
+</resources>
